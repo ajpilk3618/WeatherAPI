@@ -12,7 +12,6 @@ namespace WeatherAPI
         {
             string url = "https://api.openweathermap.org/data/2.5/weather?";
 
-            //api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=0cf647272a5dcd30aa34af83fd21c272
 
             Console.Write("Please enter a city or zip code:");
             string Zip = Console.ReadLine();
